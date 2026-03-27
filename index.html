@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/png" href="./favicon.png">
     <title>Calculator</title>
   </head>
 
@@ -13,7 +14,7 @@
 
       <div id="keypad-container">
         <button id="clear-btn" class="btn other-btn">C</button>
-        <button id="percentage-btn" class="btn other-btn">%</button>
+        <button id="percentage-btn" class="btn other-btn" value="%">%</button>
         <button id="backspace-btn" class="btn other-btn">⌫</button>
         <button class="btn operator-btn" value="÷">÷</button>
 
@@ -32,9 +33,9 @@
         <button class="btn number-btn" value="3">3</button>
         <button class="btn operator-btn" value="+">+</button>
 
-        <button class="btn">+/-</button>
+        <button id="negation-btn" class="btn">+/-</button>
         <button class="btn number-btn" value="0">0</button>
-        <button class="btn">.</button>
+        <button class="btn number-btn" value=".">.</button>
         <button id="equal-btn" class="btn">=</button>
       </div>
     </div>
